@@ -135,10 +135,13 @@ footer{
 
 footer span{
     font-size: 14px;
+    line-height: 28px;
     color: #474356;
 }
 
 .social a{
+    font-size: 18px;
+    line-height: 28px;
     color: #9E7DEA;
     text-decoration: none;
     margin-left: 32px;
