@@ -1,3 +1,150 @@
 /*This is the manin file with my styles*/
 
+html{
+    background-color: #131217;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    font-weight: 400;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+    font-size: 56px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.mega{
+    font-size: 170px;
+    font-weight: 800;
+    line-height: 160px;
+    padding-bottom: 48px;
+}
+
+h2{
+    font-size: 48px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.topnav {
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 32px 16px 32px;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .topnav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.topnav li{
+    padding: 0px 16px;
+}
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-bottom: 2px solid #9E7DEA;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: #B2A6CE;
+  }
+
+.herobanner{
+    background-image: url(img/Heroimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100vh;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herobanner p{
+    font-size: 24px;
+    line-height: 40px;
+    width: 50%;
+    margin-left: 80px;
+}
+
+.herobanner h1{
+    width: 50%;
+    margin-left: 80px;
+}
+
+.mega span{
+    color: #B2A6CE;
+}
+
+.aboutMe{
+    margin: 100px auto;
+    width: 960px;
+}
+
+.aboutMe p{
+    margin-bottom: 16px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    background-color: #0A090B;
+}
+
+footer span{
+    font-size: 14px;
+    color: #474356;
+}
+
+.social a{
+    color: #9E7DEA;
+    text-decoration: none;
+    margin-left: 32px;
+}
+
+.social a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
